@@ -27,11 +27,9 @@ def score_points(x, y):
 
 
 while True:
-
-    header()
-    score_points(user_score, pc_score)
-
     while True:
+        header()
+        score_points(user_score, pc_score)
         choice = input("""Type:
                                 
                     1 - PAPER
